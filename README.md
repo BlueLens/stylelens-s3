@@ -1,11 +1,8 @@
-# stylelens-object
+# stylelens-s3
 
 
-## Setup for DB connection
+## Setup for S3 connection
 ```bash
-export DB_HOST={your_db_host_url}
-export DB_PORT={your_db_port_url}
-export DB_NAME={your_db_name}
-export DB_USER={your_db_user}
-export DB_PASSWORD={your_db_password}
+export AWS_ACCESS_KEY={your_access_key}
+export AWS_SECRET_ACCESS_KEY={your_secret_key}
 ```
